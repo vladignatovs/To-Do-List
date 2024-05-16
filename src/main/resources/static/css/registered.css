@@ -1,0 +1,135 @@
+body { 
+    margin: 0; 
+    background-image: url("image2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+input[type=text] {
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+    height: 30px;
+    outline: 0;
+    color: rgb(60, 66, 87);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    min-height: 28px;
+    vertical-align: middle;
+    transition: background-color .24s, box-shadow .24s;
+    transition-property: background-color, box-shadow;
+    transition-duration: 0.24s, 0.24s;
+    transition-timing-function: ease, ease;
+    transition-delay: 0s, 0s;
+}
+input[type=submit] {
+    display: inline-grid;
+    padding: 12px 17px;
+    border: 0;
+    background-color: rgb(232,229,223);
+    border-radius: 50px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+input[type=submit].fill-div {
+    background:transparent;
+    height: 200px; 
+    width: 100%;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+input[type=submit].main-input:hover {
+    background-color: #2222221a;
+    cursor: pointer;
+}
+
+input[type=submit].log-out:hover {
+    background-color: #2222221a;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(165, 162, 155);
+}
+
+div.todolist {
+    background-color: #c3c3c3;
+    width: 100%;
+    height: 200px; 
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+ul.role {
+    padding: 0;
+    margin: 0;
+    height: 0;
+}
+
+li.role {
+    padding: 0;
+}
+
+.main-page {
+    top: 35px;
+    position: sticky;
+    float: left;
+    height: 85vh;
+    width: 20%;
+    padding: 20px;
+    background: #22222222;
+    margin: 35px;
+}
+
+.main-list {
+    margin-left: 20%;
+    min-height: 100vh;
+    height: 100%;
+    position: relative;
+    display: flex;
+    background-color: white;
+}
+
+.fa-solid {
+    position: relative;
+    color: white;
+    top: 10px;
+    bottom: 7px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    background: rgb(255, 0, 0);
+    float: right;
+    right: 1.25%;
+}
+
+.fa-solid:hover {
+    background: rgb(131, 0, 0);
+    cursor: pointer;
+}
+
+form.delete, form.todolist-link {
+    height: 0;
+}
+
